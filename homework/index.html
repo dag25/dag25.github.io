@@ -22,8 +22,12 @@
     <!-- ....................................
                     header
 ..........................................-->
+
+
     <header class="main-header">
+
         <div class="container">
+
 
             <div class="header-item__promo">
                 <h1>Product name</h1>
@@ -57,8 +61,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo&nbsp;at. Natus eos, eligendi illum rerum omnis porro&nbsp;ex, magni, explicabo veniam incidunt in&nbsp;quam sapiente ut&nbsp;ipsum.</p>
                     <p>Pariatur iure ab&nbsp;sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
                 </article>
-                <video width="430" height="245" controls="controls" poster="#">
+                <video autoplay loop width="430" height="245" controls="controls" poster="#" preload="auto" muted="muted">
                     <source src="video/fire_background_loop2_videvo2.mov">
+                    <p>Your browser doesn't support HTML5 video. Here is
+                        a <a href="#">link to the video</a> instead.</p>
                 </video>
 
 
@@ -282,10 +288,11 @@
             <div class="container">
 
                 <form class="contacts-form" action="send" method="post">
-                    <label for="fullname"><input type="text" id="fullname" name="fullname" placeholder="Your name:"></label>
-                    <label for="email"><input type="email" id="email" name="email" placeholder="Your email:"></label>
-                    <textarea id="message" name="message" placeholder="Your message:" cols="30" rows="8"></textarea>
+                    <label for="fullname"><input type="text" id="fullname" name="fullname" placeholder="Your name:" required autofocus pattern="[A-Za-z]"></label>
+                    <label for="email"><input type="email" id="email" name="email" placeholder="Your email:" required></label>
+                    <textarea id="message" name="message" placeholder="Your message:" cols="30" rows="8" pattern="[A-Za-z]{4,10}"></textarea>
                     <input type="submit" class="contacts__btn" value="Send">
+
                 </form>
 
                 <div class="contacts__items">
@@ -324,6 +331,7 @@
         Copyright &#169; 2014 Product name &#8226; PSD HTML CSS
     </footer>
     <script src="#"></script>
+
 </body>
 
 </html>
