@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "robotoregular";
+    src: url('../fonts/Roboto/robotoregular-webfont.woff2') format('woff2'),
+        url('../fonts/Roboto/robotoregular-webfont.woff') format('woff'),
+        url("../fonts/Roboto/RobotoRegular.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "montserratextralight";
+    src: url('../fonts/Montserrat/montserratextralight-webfont.woff2') format('woff2'),
+        url('../fonts/Montserrat/montserratextralight-webfont.woff') format('woff'),
+        url("../fonts/Montserrat/MontserratExtraLight.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "montserratlight";
+    src: url('../fonts/Montserrat/montserratlight-webfont.woff2') format('woff2'),
+        url('../fonts/Montserrat/montserratlight-webfont.woff') format('woff'),
+        url("../fonts/Montserrat/MontserratLight.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "montserratregular";
+    src: url('../fonts/Montserrat/montserratregular-webfont.woff2') format('woff2'),
+        url('../fonts/Montserrat/montserratregular-webfont.woff') format('woff'),
+        url("../fonts/Montserrat/MontserratRegular.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ralewayregular";
+    src: url('../fonts/Raleway/ralewayregular-webfont.woff2') format('woff2'),
+        url('../fonts/Raleway/ralewayregular-webfont.woff') format('woff'),
+        url("../fonts/Raleway/RalewayRegular.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ralewaymedium";
+    src: url('../fonts/Raleway/ralewaymedium-webfont.woff2') format('woff2'),
+        url('../fonts/Raleway/../fonts/Raleway/ralewaymedium-webfont.woff') format('woff'),
+        url("../fonts/Raleway/RalewayMedium.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ralewaysemiBold";
+    src: url('../fonts/Raleway/ralewaysemibold-webfont.woff2') format('woff2'),
+        url('../fonts/Raleway/ralewaysemibold-webfont.woff') format('woff'),
+        url("../fonts/Raleway/RalewaySemiBold.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ralewayextraBold";
+    src: url('../fonts/Raleway/ralewayextrabold-webfont.woff2') format('woff2'),
+        url('../fonts/Raleway/ralewayextrabold-webfont.woff') format('woff'),
+        url("../fonts/Raleway/RalewayExtraBold.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: normal;
+}
