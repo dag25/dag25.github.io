@@ -42,12 +42,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background: #19181d;
 }
 .pages>div:nth-child(3) {
   background-image: url(../img/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background: #19181d;
 }
 .pages>div:nth-child(4) {
   background-image: url(../img/4.jpg);
@@ -105,10 +107,10 @@ body{
 
 .pages-title {
   font-family: 'Ruslan Display',  cursive;
-  font-size: 40px;
+  font-size: 50px;
   text-transform: uppercase;
   margin: 0;
-  color: #da3f47;
+  color:#ffc929;
   letter-spacing: 5px;
   padding: 40px;
   font-weight: 200;
@@ -163,25 +165,13 @@ body{
   background: linear-gradient(#ffc929 10%, #e38c41 35%, #ffc929 40%, #e38c41 65%, #ffc929 70%, #e38c41 95%, #ffc929 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 10px #da3f47,
-                0px 0px 25px #da3f47;
+  text-shadow: 0px 0px 10px #fd0404,
+                0px 0px 25px #fde7e88f;
 }
 .pages-title:hover::before{
-  opacity:0.3;
+  opacity:0.1;
 }
-.pages-descr{
-  color: #fff;
-  font-size: 20px;
-  display: block;
-  position: absolute;
-  top: 70%;
-  z-index: 30;
-  transform: translate(110%);
-  -webkit-transform: translate(110%);
-  -moz-transform: translate(110%);
-  -ms-transform: translate(110%);
-  -o-transform: translate(110%);
-}
+
 .icon{
   position: relative;
   z-index: 888;
@@ -426,15 +416,28 @@ h1 {
   letter-spacing: 0.2em;
 
 }
-
+.pages-descr {
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  margin-left: 50%;
+  transform:translateX(-50%);
+  position: absolute;
+  top: 60%;
+  z-index: 30;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+  -o-transform:translateX(-50%);
+}
 h1 span {
   
 }
 h1:hover span{
-opacity: 0;
-display: inline-block;
-animation: animate 1s linear forwards;
--webkit-animation: animate 1s linear forwards;
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+  -webkit-animation: animate 1s linear forwards;
 }
 
 @keyframes animate {
@@ -462,31 +465,31 @@ animation: animate 1s linear forwards;
 }
 
 h1 span:nth-child(1) {
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 
 h1 span:nth-child(2) {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 h1 span:nth-child(3) {
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 
 h1 span:nth-child(4) {
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
 
 h1 span:nth-child(5) {
-  animation-delay: 3.5s;
+  animation-delay: 3s;
 }
 
 h1 span:nth-child(6) {
-  animation-delay: 4s;
+  animation-delay: 3.5s;
 }
 
 h1 span:nth-child(7) {
-  animation-delay: 4.5s;
+  animation-delay: 4s;
 }
 
 
@@ -688,19 +691,19 @@ h1 span:nth-child(7) {
 
 .msg {
   font-family: serif;
-  font-size: 20px;
+  font-size: 35px;
   color: #ffffff;
   letter-spacing: 45px;
   text-transform: uppercase;
   text-align: center;
   position: absolute;
   top: 3%;
-  left: 0%;
-  transform: translate(73%,-10% );
-  -webkit-transform: translate(73%,-10% );
-  -moz-transform: translate(73%,-10% );
-  -ms-transform: translate(73%,-10% );
-  -o-transform: translate(73%,-10% );
+  margin-left: 50%;
+  transform: translateX(-55%);
+  -webkit-transform: translateX(-55%);
+  -moz-transform: translateX(-55%);
+  -ms-transform: translateX(-55%);
+  -o-transform: translateX(-55%);
 }
 
 .notifymsg {
@@ -711,12 +714,12 @@ h1 span:nth-child(7) {
   text-transform: uppercase;
   position: absolute;
   top: 30%;
-  left: 40%;
-  /* transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%); */
+  margin-left: 50%;
+  -webkit-transform: translateX(-90%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  */:;
 }
 
 .field {
