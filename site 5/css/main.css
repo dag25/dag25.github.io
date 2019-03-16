@@ -482,7 +482,7 @@ input[type='checkbox']:checked + label:before {
 }
 
 .hero {
-  background: #f1f1f1 url("../../img/hero/devushka-merlin-monro-marilyn.jpg") no-repeat center top;
+  background: #f1f1f1 url("../img/hero/devushka-merlin-monro-marilyn.jpg") no-repeat center top;
   background-size: cover;
   padding-top: 120px;
   padding-bottom: 270px;
@@ -522,12 +522,12 @@ input[type='checkbox']:checked + label:before {
 }
 
 .offer-block__calc-bg {
-  background: url("../../img/offer/6.jpg") no-repeat center right;
+  background: url("../img/offer/6.jpg") no-repeat center right;
   background-size: cover;
 }
 
 .offer-block__price-bg {
-  background: url("../../img/offer/6.jpg") no-repeat center right;
+  background: url("../img/offer/6.jpg") no-repeat center right;
   background-size: cover;
 }
 
